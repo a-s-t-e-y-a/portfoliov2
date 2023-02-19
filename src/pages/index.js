@@ -12,7 +12,9 @@ const barlow2 = Roboto({
   weight: "100",
   subsets: ["latin"],
 });
-
+export const config = {
+  unstable_runtimeJS: false,
+};
 export default function Home() {
   return (
     <>
