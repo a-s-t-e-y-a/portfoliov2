@@ -15,7 +15,9 @@ module.exports = {
       'yellow-landing':'#FFC700',
       'black-landing':"#000000",
       'pruple-landing':"#9400D3",
-      'red-landing':"#FF0000"
+      'red-landing':"#FF0000",
+      'white-landing':"#FFFFFF",
+      'gray-landing':"#A9A9A9"
     },
     extend: {
       
