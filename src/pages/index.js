@@ -74,6 +74,50 @@ export default function Home() {
             </div>
           </motion.div>
         </div>
+        <div className="flex justify-center ">
+          <motion.div animate={{ x: [400, 0] }} transition={{ duration: 1 }}>
+            <div>
+              <a
+                href="#"
+                className={`${styles.cta2} mt-12 flex text-xs items-center`}
+              >
+                <span>Blogs</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </a>
+            </div>
+          </motion.div>
+          <motion.div animate={{ x: [300, 0] }} transition={{ duration: 1 }}>
+            <div>
+              <a
+                href="#"
+                className={`${styles.cta2} mt-12 flex text-xs items-center`}
+              >
+                <span>About</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </a>
+            </div>
+          </motion.div>
+          <motion.div animate={{ x: [200, 0] }} transition={{ duration: 1 }}>
+            <div>
+              <a
+                href="#"
+                className={`${styles.cta2} mt-12 flex text-xs items-center`}
+              >
+                <span>Contact</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </a>
+            </div>
+          </motion.div>
+        </div>
       </nav>
 
       {/* 
