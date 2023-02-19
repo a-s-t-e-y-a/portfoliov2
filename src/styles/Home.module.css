@@ -34,11 +34,11 @@
   transform: translateX(-5px);
   transition: all 0.8s ease;
 }
-.cta:hover:before {
+.cta:hover:before , .cta:active:before{
   width: 60%;
   background: #dddddd;
 }
-.cta:hover svg {
+.cta:hover ,.cta:active svg {
   transform: translateX(0);
 }
 .cta:active {
