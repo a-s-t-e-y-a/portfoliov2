@@ -36,52 +36,7 @@ export default function Home() {
             <></>
           )}
         </div>
-        {!small ? (
-          <div className="flex justify-center ">
-            <div>
-              <div>
-                <a
-                  href="#"
-                  className={`${styles.cta2} mt-12 flex text-xs items-center`}
-                >
-                  <span>Blogs</span>
-                  <svg width="13px" height="10px" viewBox="0 0 13 10">
-                    <path d="M1,5 L11,5"></path>
-                    <polyline points="8 1 12 5 8 9"></polyline>
-                  </svg>
-                </a>
-              </div>
-            </div>
-            <div>
-              <div>
-                <a
-                  href="#"
-                  className={`${styles.cta2} mt-12 flex text-xs items-center`}
-                >
-                  <span>About</span>
-                  <svg width="13px" height="10px" viewBox="0 0 13 10">
-                    <path d="M1,5 L11,5"></path>
-                    <polyline points="8 1 12 5 8 9"></polyline>
-                  </svg>
-                </a>
-              </div>
-            </div>
-            <div>
-              <div>
-                <a
-                  href="#"
-                  className={`${styles.cta2} mt-12 flex text-xs items-center`}
-                >
-                  <span>Contact</span>
-                  <svg width="13px" height="10px" viewBox="0 0 13 10">
-                    <path d="M1,5 L11,5"></path>
-                    <polyline points="8 1 12 5 8 9"></polyline>
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-        ) : (
+        {medium ? (
           <div className="flex justify-center ">
             <motion.div animate={{ x: [400, 0] }} transition={{ duration: 1 }}>
               <div>
@@ -126,6 +81,51 @@ export default function Home() {
               </div>
             </motion.div>
           </div>
+        ) : (
+          <div className="flex justify-center ">
+            <div>
+              <div>
+                <a
+                  href="#"
+                  className={`${styles.cta2} mt-12 flex text-xs items-center`}
+                >
+                  <span>Blogs</span>
+                  <svg width="13px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div>
+              <div>
+                <a
+                  href="#"
+                  className={`${styles.cta2} mt-12 flex text-xs items-center`}
+                >
+                  <span>About</span>
+                  <svg width="13px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div>
+              <div>
+                <a
+                  href="#"
+                  className={`${styles.cta2} mt-12 flex text-xs items-center`}
+                >
+                  <span>Contact</span>
+                  <svg width="13px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
         )}
       </nav>
 
@@ -134,7 +134,7 @@ export default function Home() {
 
       */}
 
-      {small ? (
+      {medium ? (
         <div className="md:flex md:justify-between md:items-center xl:mx-64 xl:my-32 md:mx-12 md:my-12">
           <motion.div
             initial={{ y: 1000 }}
@@ -185,12 +185,7 @@ export default function Home() {
         </div>
       ) : (
         <div className="md:flex md:justify-between md:items-center xl:mx-64 xl:my-32 md:mx-12 md:my-12">
-          <div
-            initial={{ y: 1000 }}
-            animate={{ y: [1000, 0] }}
-            transition={{ duration: 1.6 }}
-            className="m-4"
-          >
+          <div className="m-4">
             <h1 className={`${barlow.className} text-4xl`}>
               Love to craft <br></br>
               scalable Web app
