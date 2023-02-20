@@ -1,3 +1,7 @@
+# NOTE : construction is going on have belive in krishna 
+
+> -----------------------------------------------------------------------------------------------------------
+
 ## Perosnal portfolio
 
 - tech stack
