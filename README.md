@@ -1,4 +1,4 @@
-# NOTE : construction is going on have belive in krishna 
+## NOTE : construction is going on. have faith in krishna 
 
 > -----------------------------------------------------------------------------------------------------------
 
