@@ -1,4 +1,5 @@
 import { Roboto } from "@next/font/google";
+import Image from "next/image";
 const barlow2 = Roboto({
   weight: "100",
   subsets: ["latin"],
@@ -33,7 +34,7 @@ export default function Showcase() {
         <div className=" ease-in duration-300 hover:bg-black-landing  hover:rounded-lg hover:text-white-landing  rounded-sm ">
           <div className="p-4 ">
             <div className="mb-12">
-                <img className="rounded-lg" src="https://cdnb.artstation.com/p/assets/images/images/030/756/795/large/konstantin-kozyrkov-6.jpg?1601555029"></img>
+                <Image width={1200} height={800} className="rounded-lg" src="/konstantin-kozyrkov-7.jpg"></Image >
             </div>
             <h1
               className={`${barlow3.className} text-4xl  selection:bg-white-landing selection:text-black-landing`}
@@ -97,7 +98,7 @@ export default function Showcase() {
         <div className=" ease-in duration-300 hover:bg-black-landing hover:rounded-lg hover:text-white-landing  rounded-sm ">
           <div className="p-4 ">
             <div className="mb-12">
-                <img className="rounded-lg" src="https://cdnb.artstation.com/p/assets/images/images/030/756/777/large/konstantin-kozyrkov-1.jpg?1601555220"></img>
+                <Image width={1200} height={800} className="rounded-lg" src="/konstantin-kozyrkov-6.jpg"></Image>
             </div>
             <h1
               className={`${barlow3.className} text-4xl  selection:bg-white-landing selection:text-black-landing`}
@@ -161,7 +162,7 @@ export default function Showcase() {
         <div className=" ease-in duration-300 hover:bg-black-landing hover:rounded-lg hover:text-white-landing  rounded-sm ">    
           <div className="p-4 ">
             <div className="mb-12">
-                <img className="rounded-lg" src="https://cdnb.artstation.com/p/assets/images/images/030/756/797/large/konstantin-kozyrkov-7.jpg?1601555034"></img>
+                <Image width={1200} height={800} className="rounded-lg" src="/konstantin-kozyrkov-1.jpg"></Image>
             </div>
             <h1
               className={`${barlow3.className} text-4xl  selection:bg-white-landing selection:text-black-landing`}
@@ -225,7 +226,7 @@ export default function Showcase() {
         <div className=" ease-in duration-300 hover:bg-black-landing hover:rounded-lg hover:text-white-landing  rounded-sm ">
           <div className="p-4 ">
             <div className="mb-12">
-                <img className="rounded-lg" src="https://cdna.artstation.com/p/assets/images/images/030/756/798/large/konstantin-kozyrkov-8.jpg?1601555040"></img>
+                <Image width={1200} height={800} className="rounded-lg" src="/konstantin-kozyrkov-8.jpg"></Image>
             </div>
             <h1
               className={`${barlow3.className} text-4xl  selection:bg-white-landing selection:text-black-landing`}
