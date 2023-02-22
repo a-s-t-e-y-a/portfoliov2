@@ -10,15 +10,15 @@ const barlow = Roboto({
   });
 export default function Header() {
   return (
-    <motion.header 
-    class={`${barlow2.className} selection:text-black-landing selection:bg-white-landing text-7xl relative flex items-center justify-between text-white-landing h-screen  overflow-hidden`}>
-      <div class=" relative z-30 p-5 text-white ml-12 rounded-xl">
+    <header 
+    className={`${barlow2.className} object-contain selection:text-black-landing selection:bg-white-landing text-7xl flex justify-between items-center  text-white-landing h-screen  overflow-hidden`}>
+      <div className=" relative z-30 p-5 text-white ml-12 rounded-xl">
        Man is still <br></br>the most <br></br>extraordinary <br></br>computer<br></br> of all
        <h1 className={`${barlow2.className} mr-12 text-lg mt-12`}>
         Jhon F kenndey
        </h1>
       </div>
-      <div class="relative z-30 p-5 text-white mr-24 rounded-xl">
+      <div className="relative z-30 p-5 text-white mr-24 rounded-xl">
        Bibliophile<br></br>
        Cinephile<br></br>
        Coder<br></br>
@@ -27,7 +27,7 @@ export default function Header() {
         autoPlay
         loop
         muted
-        class="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+        className="opacity-90 object-cover absolute z-10 w-full h-full"
       >
         <source
           src="/turntable.mp4"
@@ -35,6 +35,6 @@ export default function Header() {
         />
         Your browser does not support the video tag.
       </video>
-    </motion.header>
+    </header>
   );
 }

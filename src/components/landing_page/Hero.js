@@ -17,8 +17,8 @@ export default function Hero() {
       {medium ? (
         <div className="md:flex md:justify-between md:items-center xl:mx-64 xl:my-32 md:mx-12 md:my-12">
           <motion.div
-            initial={{ y: 1000 }}
-            animate={{ y: [1000, 0] }}
+            initial={{ y: -1000 }}
+            animate={{ y: [-1000, 0] }}
             transition={{ duration: 1.6 }}
             className="m-4"
           >
