@@ -41,11 +41,11 @@ export default function Hero() {
             </div>
             <div>
               <div className="flex text-gray-landing gap-8 mt-12">
-                <a>Github</a>
+                <a target="_blank" rel="noopener"href="https://github.com/a-s-t-e-y-a">Github</a>
                 <h1>/</h1>
-                <a>Twitter</a>
+                <a target="_blank" rel="noopener"href="https://github.com/a-s-t-e-y-a">Twitter</a>
                 <h1>/</h1>
-                <a>Reddit</a>
+                <a target="_blank" rel="noopener"href="https://github.com/a-s-t-e-y-a">Reddit</a>
               </div>
             </div>
           </motion.div>
