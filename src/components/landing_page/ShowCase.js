@@ -29,10 +29,12 @@ export default function Showcase() {
           <a>Github</a>
         </div>
       </div>
-      <div className="bg-white-landing md:grid md:grid-rows-2 md:grid-flow-col md:gap-12 md:gap-y-12 p-4 lg:mx-12 mb-24">
-        <div className=" ease-in duration-300 hover:bg-black-landing hover:text-white-landing border-[1px] rounded-sm ">
-          <div className="p-4">
-            <div></div>
+      <div className="bg-white-landing md:grid md:grid-cols-2 md:grid-flow-row md:gap-12 md:gap-y-12 p-4 lg:mx-12 mb-24">
+        <div className=" ease-in duration-300 hover:bg-black-landing  hover:rounded-lg hover:text-white-landing  rounded-sm ">
+          <div className="p-4 ">
+            <div className="mb-12">
+                <img className="rounded-lg" src="https://cdnb.artstation.com/p/assets/images/images/030/756/795/large/konstantin-kozyrkov-6.jpg?1601555029"></img>
+            </div>
             <h1
               className={`${barlow3.className} text-4xl  selection:bg-white-landing selection:text-black-landing`}
             >
@@ -47,12 +49,33 @@ export default function Showcase() {
               </h3>
             </div>
             <h2 className="mt-8 text-lg font-bold">Techstack</h2>
-            <div className="container max-w-xl overflow-hidden">
-              <h3 className={`${barlow2.className} text-gray-600`}>
-                Node js, React js , gRPC , protobuff , golang
+            <div className="grid grid-cols-5 grid-flow-row max-w-lg gap-4">
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
               </h3>
             </div>
-            <div className={`mt-16 flex gap-8`}>
+            <div className={`mt-16 flex gap-8 mb-12`}>
               <button
                 className={`${barlow2.className} ease-in duration-300 hover:bg-yellow-landing hover:text-black-landing text-2xl rounded-full border-2 px-8 py-2 `}
               >
@@ -71,9 +94,11 @@ export default function Showcase() {
             </div>
           </div>
         </div>
-        <div className=" ease-in duration-300 hover:bg-black-landing hover:text-white-landing border-[1px] rounded-sm ">
-          <div className="p-4">
-            <div></div>
+        <div className=" ease-in duration-300 hover:bg-black-landing hover:rounded-lg hover:text-white-landing  rounded-sm ">
+          <div className="p-4 ">
+            <div className="mb-12">
+                <img className="rounded-lg" src="https://cdnb.artstation.com/p/assets/images/images/030/756/777/large/konstantin-kozyrkov-1.jpg?1601555220"></img>
+            </div>
             <h1
               className={`${barlow3.className} text-4xl  selection:bg-white-landing selection:text-black-landing`}
             >
@@ -88,12 +113,33 @@ export default function Showcase() {
               </h3>
             </div>
             <h2 className="mt-8 text-lg font-bold">Techstack</h2>
-            <div className="container max-w-xl overflow-hidden">
-              <h3 className={`${barlow2.className} text-gray-600`}>
-                Node js, React js , gRPC , protobuff , golang
+            <div className="grid grid-cols-5 grid-flow-row max-w-lg gap-4">
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
               </h3>
             </div>
-            <div className={`mt-16 flex gap-8`}>
+            <div className={`mt-16 flex gap-8 mb-12`}>
               <button
                 className={`${barlow2.className} ease-in duration-300 hover:bg-yellow-landing hover:text-black-landing text-2xl rounded-full border-2 px-8 py-2 `}
               >
@@ -112,9 +158,11 @@ export default function Showcase() {
             </div>
           </div>
         </div>
-        <div className=" ease-in duration-300 hover:bg-black-landing hover:text-white-landing border-[1px] rounded-sm ">
-          <div className="p-4">
-            <div></div>
+        <div className=" ease-in duration-300 hover:bg-black-landing hover:rounded-lg hover:text-white-landing  rounded-sm ">    
+          <div className="p-4 ">
+            <div className="mb-12">
+                <img className="rounded-lg" src="https://cdnb.artstation.com/p/assets/images/images/030/756/797/large/konstantin-kozyrkov-7.jpg?1601555034"></img>
+            </div>
             <h1
               className={`${barlow3.className} text-4xl  selection:bg-white-landing selection:text-black-landing`}
             >
@@ -129,12 +177,33 @@ export default function Showcase() {
               </h3>
             </div>
             <h2 className="mt-8 text-lg font-bold">Techstack</h2>
-            <div className="container max-w-xl overflow-hidden">
-              <h3 className={`${barlow2.className} text-gray-600`}>
-                Node js, React js , gRPC , protobuff , golang
+            <div className="grid grid-cols-5 grid-flow-row max-w-lg gap-4">
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
               </h3>
             </div>
-            <div className={`mt-16 flex gap-8`}>
+            <div className={`mt-16 flex gap-8 mb-12`}>
               <button
                 className={`${barlow2.className} ease-in duration-300 hover:bg-yellow-landing hover:text-black-landing text-2xl rounded-full border-2 px-8 py-2 `}
               >
@@ -153,9 +222,11 @@ export default function Showcase() {
             </div>
           </div>
         </div>
-        <div className=" ease-in duration-300 hover:bg-black-landing hover:text-white-landing border-[1px] rounded-sm ">
-          <div className="p-4">
-            <div></div>
+        <div className=" ease-in duration-300 hover:bg-black-landing hover:rounded-lg hover:text-white-landing  rounded-sm ">
+          <div className="p-4 ">
+            <div className="mb-12">
+                <img className="rounded-lg" src="https://cdna.artstation.com/p/assets/images/images/030/756/798/large/konstantin-kozyrkov-8.jpg?1601555040"></img>
+            </div>
             <h1
               className={`${barlow3.className} text-4xl  selection:bg-white-landing selection:text-black-landing`}
             >
@@ -170,12 +241,33 @@ export default function Showcase() {
               </h3>
             </div>
             <h2 className="mt-8 text-lg font-bold">Techstack</h2>
-            <div className="container max-w-xl overflow-hidden">
-              <h3 className={`${barlow2.className} text-gray-600`}>
-                Node js, React js , gRPC , protobuff , golang
+            <div className="grid grid-cols-5 grid-flow-row max-w-lg gap-4">
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
+              </h3>
+              <h3 className={`${barlow3.className} text-gray-600 bg-yellow-landing rounded-xl px-4 py-2 hover:text-black-landing`}>
+                Node js
               </h3>
             </div>
-            <div className={`mt-16 flex gap-8`}>
+            <div className={`mt-16 flex gap-8 mb-12`}>
               <button
                 className={`${barlow2.className} ease-in duration-300 hover:bg-yellow-landing hover:text-black-landing text-2xl rounded-full border-2 px-8 py-2 `}
               >
@@ -194,6 +286,8 @@ export default function Showcase() {
             </div>
           </div>
         </div>
+
+       
       </div>
     </>
   );
