@@ -31,7 +31,7 @@ export default function Header() {
         muted
         className="opacity-90 object-cover absolute z-10 w-full h-full"
       >
-        <source src="/Untitled.mp4" type="video/mp4" />
+        <source src="/turntable.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </header>
