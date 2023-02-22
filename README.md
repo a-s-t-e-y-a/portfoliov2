@@ -1,5 +1,5 @@
 ## NOTE : construction is going on. have faith in krishna 
-
+## Right now working on only lg screen size (laptop and dekstop) {not mobile responsive}
 > -----------------------------------------------------------------------------------------------------------
 
 ## Perosnal portfolio
