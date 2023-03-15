@@ -27,14 +27,14 @@ export default function Showcase() {
         </div>
       </div>
       <div className="mb-12">
-        <div className="flex justify-between mx-32 py-12 hover:bg-black-landing hover:text-white-landing px-4 ease-in duration-300 border-b-2">
+        <div className="flex justify-between items-center mx-32 py-12 hover:bg-black-landing hover:text-white-landing px-4 ease-in duration-300 border-b-2">
           <div>00</div>
           <div className="text-5xl">Project 1</div>
           <div className="text-2xl">Blog</div>
           <div className="text-2xl">Link</div>
           <div className="text-2xl">Github</div>
         </div>
-        <div className="flex justify-between mx-32 py-12 hover:bg-black-landing hover:text-white-landing px-4 ease-in duration-300 border-b-2">
+        <div className="flex justify-between items-center mx-32 py-12 hover:bg-black-landing hover:text-white-landing px-4 ease-in duration-300 border-b-2">
           <div>00</div>
           <div className="text-5xl">Project 1</div>
           <div className="text-2xl">Blog</div>

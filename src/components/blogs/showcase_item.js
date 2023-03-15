@@ -1,10 +1,13 @@
 export default function ShowcaseBlog() {
   return (
     <>
-      <div className="flex justify-center mt-12">
+      <div className="flex justify-center items-center mt-12">
         <div className="max-w-3xl border-b-2 pb-2 border-gray-landing">
           <div className="text-2xl mb-8">
-            <a> Lorem ipsum one line title goes here and you can view my blogs to</a>
+            <a>
+              {" "}
+              Lorem ipsum one line title goes here and you can view my blogs to
+            </a>
           </div>
           <div className="text-gray-landing">
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -14,7 +17,7 @@ export default function ShowcaseBlog() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mt-12">
+      <div className="flex justify-center items-center mt-12">
         <div className="max-w-3xl border-b-2 pb-2 border-gray-landing">
           <div className="text-2xl mb-8">
             Lorem ipsum one line title goes here and you can view my blogs to
@@ -27,7 +30,6 @@ export default function ShowcaseBlog() {
           </div>
         </div>
       </div>
-      
     </>
   );
 }
