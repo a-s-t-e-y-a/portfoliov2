@@ -18,14 +18,10 @@ export default function Navbar() {
     <nav className="md:flex md:justify-between md:items-center xl:mx-32 mx-12 md:mx-8 my-12">
         <div className="">
           {medium ? (
-            <motion.img
-              whileTap={{ scale: 1.7 }}
-              initial={{ x: 1000 }}
-              animate={{ x: 0 }}
-              transition={{ duration: 1 }}
+            <img
               src="/logo.png"
               className="h-16 w-20"
-            ></motion.img>
+            ></img>
           ) : (
             <></>
           )}

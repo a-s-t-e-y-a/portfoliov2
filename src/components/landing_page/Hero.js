@@ -1,7 +1,7 @@
 import { useIsMedium } from "@/hooks/customQuery";
 import { Roboto } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
-import { motion } from "framer-motion";
+import {} from "framer-motion";
 const barlow = Roboto({
   weight: "700",
   subsets: ["latin"],
@@ -16,12 +16,7 @@ export default function Hero() {
     <>
       {medium ? (
         <div className="md:flex md:justify-between md:items-center xl:mx-64 xl:my-32 md:mx-12 md:my-12">
-          <motion.div
-            initial={{ y: -1000 }}
-            animate={{ y: [-1000, 0] }}
-            transition={{ duration: 1.6 }}
-            className="m-4"
-          >
+          <div className="m-4">
             <h1 className={`${barlow.className} text-4xl`}>
               Love to craft <br></br>
               scalable Web app
@@ -54,17 +49,14 @@ export default function Hero() {
                 </a>
               </div>
             </div>
-          </motion.div>
+          </div>
           <div>
             <div className="flex">
               <div>
-                <motion.img
-                  initial={{ x: 1000 }}
-                  animate={{ x: [1000, 0] }}
-                  transition={{ duration: 1.6 }}
+                <img
                   className={styles.imge}
                   src="/tuxpi.com.1676797479.jpg"
-                ></motion.img>
+                ></img>
               </div>
             </div>
           </div>
@@ -103,9 +95,6 @@ export default function Hero() {
             <div className="flex">
               <div>
                 <img
-                  initial={{ x: 1000 }}
-                  animate={{ x: [1000, 0] }}
-                  transition={{ duration: 1.6 }}
                   className={styles.imge}
                   src="/tuxpi.com.1676797479.jpg"
                 ></img>
