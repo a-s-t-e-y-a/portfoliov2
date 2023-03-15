@@ -2,6 +2,7 @@ import { useIsMedium } from "@/hooks/customQuery";
 import { Roboto } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import { motion } from "framer-motion";
+import Link from 'next/link'
 const barlow = Roboto({
   weight: "700",
   subsets: ["latin"],
@@ -33,8 +34,8 @@ export default function Navbar() {
           <div className="flex justify-center ">
             <zdiv animate={{ x: [400, 0] }} transition={{ duration: 1 }}>
               <div>
-                <a
-                  href="#"
+                <Link
+                  href="/blogs"
                   className={`${styles.cta2} mt-12 flex text-xs items-center`}
                 >
                   <span>Blogs</span>
@@ -42,7 +43,7 @@ export default function Navbar() {
                     <path d="M1,5 L11,5"></path>
                     <polyline points="8 1 12 5 8 9"></polyline>
                   </svg>
-                </a>
+                </Link>
               </div>
             </zdiv>
             <zdiv animate={{ x: [300, 0] }} transition={{ duration: 1 }}>
