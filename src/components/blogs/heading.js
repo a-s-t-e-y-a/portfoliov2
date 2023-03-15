@@ -1,7 +1,12 @@
+import Link from "next/link";
+
 export default function Heading() {
   return (
     <>
       <div className="my-24">
+        <div className="flex justify-center text-gray-landing mb-4">
+          <Link href="/">Home</Link>
+        </div>
         <div className=" text-7xl flex justify-center font-medium mb-12">
           Blogs
         </div>
