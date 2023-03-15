@@ -31,7 +31,7 @@ export default function Navbar() {
         </div>
         {medium ? (
           <div className="flex justify-center ">
-            <div >
+            <zdiv animate={{ x: [400, 0] }} transition={{ duration: 1 }}>
               <div>
                 <a
                   href="#"
@@ -44,8 +44,8 @@ export default function Navbar() {
                   </svg>
                 </a>
               </div>
-            </div>
-            <div >
+            </zdiv>
+            <zdiv animate={{ x: [300, 0] }} transition={{ duration: 1 }}>
               <div>
                 <a
                   href="#"
@@ -58,8 +58,8 @@ export default function Navbar() {
                   </svg>
                 </a>
               </div>
-            </div>
-            <div >
+            </zdiv>
+            <zdiv animate={{ x: [200, 0] }} transition={{ duration: 1 }}>
               <div>
                 <a
                   href="#"
@@ -72,7 +72,7 @@ export default function Navbar() {
                   </svg>
                 </a>
               </div>
-            </div>
+            </zdiv>
           </div>
         ) : (
           <div className="flex justify-center ">

@@ -12,7 +12,7 @@ const barlow2 = Roboto({
 });
 export default function Hero() {
   const medium = useIsMedium();
-  return(
+  return (
     <>
       {medium ? (
         <div className="md:flex md:justify-between md:items-center xl:mx-64 xl:my-32 md:mx-12 md:my-12">
@@ -41,11 +41,17 @@ export default function Hero() {
             </div>
             <div>
               <div className="flex text-gray-landing gap-8 mt-12">
-                <a  rel="noopener" href="https://github.com/a-s-t-e-y-a">Github</a>
+                <a rel="noopener" href="https://github.com/a-s-t-e-y-a">
+                  Github
+                </a>
                 <h1>/</h1>
-                <a  rel="noopener" href="https://github.com/a-s-t-e-y-a">Twitter</a>
+                <a rel="noopener" href="https://github.com/a-s-t-e-y-a">
+                  Twitter
+                </a>
                 <h1>/</h1>
-                <a  rel="noopener" href="https://github.com/a-s-t-e-y-a">Reddit</a>
+                <a rel="noopener" href="https://github.com/a-s-t-e-y-a">
+                  Reddit
+                </a>
               </div>
             </div>
           </motion.div>
