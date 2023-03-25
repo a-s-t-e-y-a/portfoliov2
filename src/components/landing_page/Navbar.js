@@ -27,7 +27,7 @@ export default function Navbar() {
           )}
         </div>
         {medium ? (
-          <div className="flex justify-center ">
+          <div className="flex  gap-8 justify-center ">
             <zdiv animate={{ x: [400, 0] }} transition={{ duration: 1 }}>
               <div>
                 <Link
@@ -72,7 +72,7 @@ export default function Navbar() {
             </zdiv>
           </div>
         ) : (
-          <div className="flex justify-center ">
+          <div className="flex  gap-8 justify-center ">
             <div>
               <div>
                 <a
