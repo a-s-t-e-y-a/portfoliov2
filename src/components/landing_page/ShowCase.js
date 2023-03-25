@@ -15,7 +15,7 @@ const barlow3 = Roboto({
 export default function Showcase() {
   return (
     <>
-      <div className="mt-32 mb-32 p-4 lg:mx-12">
+      <div className="mt-32 mb-32 p-4 lg:mx-12  selection:text-white-landing selection:bg-black-landing">
         <h1
           className={`${barlow3.className} text-5xl md:text-7xl lg:text-9xl  `}
         >
@@ -26,7 +26,7 @@ export default function Showcase() {
           <a href="https://github.com/a-s-t-e-y-a">Github</a>
         </div>
       </div>
-      <div className="mb-12">
+      <div className="mb-12  selection:text-white-landing selection:bg-black-landing">
         <div className="flex justify-between items-center mx-32 py-12 hover:bg-black-landing hover:text-white-landing px-4 ease-in duration-300 border-b-2">
           <div>00</div>
           <div className="text-5xl">Project 1</div>

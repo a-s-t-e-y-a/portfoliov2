@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <>
       {medium ? (
-        <div className="md:flex md:justify-between md:items-center xl:mx-64 xl:my-32 md:mx-12 md:my-12">
+        <div className="md:flex md:justify-between md:items-center xl:mx-64 xl:my-32 md:mx-12 md:my-12  selection:text-white-landing selection:bg-black-landing">
           <div className="m-4">
             <h1 className={`${barlow.className} text-4xl`}>
               Love to craft <br></br>
