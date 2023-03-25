@@ -23,7 +23,7 @@ export default function Showcase() {
         </h1>
         <div className="flex text-gray-landing gap-4 md:text-xl lg:text-2xl lg:mt-4">
           {" "}
-          <a>Github</a>
+          <a href="https://github.com/a-s-t-e-y-a">Github</a>
         </div>
       </div>
       <div className="mb-12">
