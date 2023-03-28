@@ -59,7 +59,7 @@ export default function Navbar() {
             <zdiv animate={{ x: [200, 0] }} transition={{ duration: 1 }}>
               <div>
                 <a
-                  href="https://dc4ex63jruz.typeform.com/to/tad2JUZH"
+                  href="https://dc4ex63jruz.typeform.com/to/vPTOTweZ"
                   className={`${styles.cta2} mt-12 flex text-xs items-center`}
                 >
                   <span>Contact</span>
@@ -104,7 +104,7 @@ export default function Navbar() {
             <div>
               <div>
                 <a
-                  href="https://dc4ex63jruz.typeform.com/to/tad2JUZH"
+                  href="https://dc4ex63jruz.typeform.com/to/vPTOTweZ"
                   className={`${styles.cta2} mt-12 flex text-xs items-center`}
                 >
                   <span>Contact</span>
