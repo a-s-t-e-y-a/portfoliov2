@@ -59,7 +59,7 @@ export default function Navbar() {
             <zdiv animate={{ x: [200, 0] }} transition={{ duration: 1 }}>
               <div>
                 <a
-                  href="#"
+                  href="https://dc4ex63jruz.typeform.com/to/tad2JUZH"
                   className={`${styles.cta2} mt-12 flex text-xs items-center`}
                 >
                   <span>Contact</span>
@@ -75,7 +75,7 @@ export default function Navbar() {
           <div className="flex  gap-8 justify-center ">
             <div>
               <div>
-                <a
+                <Link
                   href="#"
                   className={`${styles.cta2} mt-12 flex text-xs items-center`}
                 >
@@ -84,7 +84,7 @@ export default function Navbar() {
                     <path d="M1,5 L11,5"></path>
                     <polyline points="8 1 12 5 8 9"></polyline>
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             <div>
@@ -104,7 +104,7 @@ export default function Navbar() {
             <div>
               <div>
                 <a
-                  href="#"
+                  href="https://dc4ex63jruz.typeform.com/to/tad2JUZH"
                   className={`${styles.cta2} mt-12 flex text-xs items-center`}
                 >
                   <span>Contact</span>
